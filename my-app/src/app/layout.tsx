@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Packages from "./components/Packages";
+import Footer from "./components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,12 +23,16 @@ export default function RootLayout({
       <body className={inter.className}>
         <div>
           <Header/>
-          {/* <Hero/> */}
+          <Hero/>
         </div>
         <div>
           <Packages/>
         </div>
-        {children}</body>
+        {children}
+        <div>
+        <Footer/>     
+        </div>
+        </body>
     </html>
   );
 }
