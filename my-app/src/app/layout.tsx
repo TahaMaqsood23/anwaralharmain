@@ -5,6 +5,8 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Packages from "./components/Packages";
 import Footer from "./components/Footer";
+import Ourservices from "./components/Ourservices";
+import Contactus from "./components/Contactus";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,17 +24,23 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <div>
-          <Header/>
-          <Hero/>
+          <Header />
+          <Hero />
         </div>
         <div>
-          <Packages/>
+          <Ourservices />
+        </div>
+        <div>
+          <Packages />
+        </div>
+        <div>
+          <Contactus/>
         </div>
         {children}
         <div>
-        <Footer/>     
+          <Footer />
         </div>
-        </body>
+      </body>
     </html>
   );
 }

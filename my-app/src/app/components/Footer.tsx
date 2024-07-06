@@ -1,4 +1,6 @@
+import { Map, MapPinIcon } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
@@ -19,11 +21,12 @@ const Footer = () => {
           </a>
           <div className="flex flex-col md:flex-row text-center md:text-left md:ml-4 md:pl-4 md:border-l-2 md:border-gray-700">
             <p className="text-sm text-gray-400 mt-4 md:mt-0">
-              Near Meezan Bank Kutchary Road, Sialkot.
-              <br /> Cell: +92-300-8617899
-              <br />
-              LandLine: +92-52-4265181-82
+              Address: Kutchery Road, Near <br />Meezan Bank LTD,
+               Mohalla Water Works, Sialkot, Punjab 51310 <br /> <br />
+              Phone Numbers: <br /> Mobile: +92-300-8617899 <br />
+              Mobile: +92-317-7357650 <br /> Landline: 052-4570059
             </p>
+             <Link href={'https://maps.app.goo.gl/eGkxibANbEjvKPJA7'}><MapPinIcon/></Link>
             <p className="text-sm text-gray-400 mt-4 md:mt-0 md:ml-4 md:pl-4">
               ©2024 copyrights ANWAAR AL HARMAIN <br />
               TRAVEL & TOURS.
