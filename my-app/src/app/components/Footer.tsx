@@ -2,12 +2,12 @@ import { Map, MapPinIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <div>
-      <footer className="bg-gray-900 text-gray-300 body-font">
+      <footer id="footer" className="bg-gray-900 text-gray-300 body-font">
         <div className="container px-5 py-8 mx-auto flex flex-col md:flex-row items-center justify-between">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
             <Image
@@ -61,13 +61,13 @@ const Footer = () => {
               </div>
             </span>
             <span className="inline-flex mt-4 md:mt-0 md:ml-4">
-              <a href="#" className="text-gray-400 hover:text-white">
+              <a href="https://www.facebook.com/anwaaralharmain" className="text-gray-400 hover:text-white">
                 <FaFacebook size={24} />
               </a>
-              <a href="#" className="ml-3 text-gray-400 hover:text-white">
-                <FaTwitter size={24} />
+              <a href="https://www.linkedin.com/company/anwaar-al-harmain-travel-and-tours" className="ml-3 text-gray-400 hover:text-white">
+                <FaLinkedin size={24} />
               </a>
-              <a href="#" className="ml-3 text-gray-400 hover:text-white">
+              <a href="https://www.instagram.com/anwaaralharmaintravelandtours/" className="ml-3 text-gray-400 hover:text-white">
                 <FaInstagram size={24} />
               </a>
             </span>

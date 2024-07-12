@@ -9,7 +9,7 @@ const Packages = () => {
       className="bg-cover bg-center bg-no-repeat min-h-screen"
       style={{ backgroundImage: "url('/madinapic1.jpg')" }}
     >
-      <div className="text-gray-600 body-font bg-black bg-opacity-75 min-h-screen flex items-center">
+      <div id="Packages" className="text-gray-600 body-font bg-black bg-opacity-75 min-h-screen flex items-center">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap w-full mb-20 justify-between">
             <div className="lg:w-1/2 w-full mb-6 lg:mb-0 mx-auto">

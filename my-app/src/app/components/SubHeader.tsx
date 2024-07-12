@@ -1,4 +1,5 @@
-import { FaFacebook, FaInstagram, FaPhone, FaWhatsapp } from "react-icons/fa";
+import Link from "next/link";
+import { FaFacebook, FaInstagram, FaLinkedin, FaPhone, FaWhatsapp } from "react-icons/fa";
 
 const SubHeader = () => {
   return (
@@ -8,15 +9,18 @@ const SubHeader = () => {
           <span className="mr-2"></span>Making Your Umrah Journey Memorable and Hassle-Free!
         </p>
         <div className="flex space-x-4 ">
-          <a href="https://wa.me/+923177357650" className="text-white">
+          <Link href="https://wa.me/+923177357650" className="text-white" target="_blank">
             <FaWhatsapp />
-          </a>
-          <a href="https://www.facebook.com/anwaaralharmain" className="text-white">
+          </Link>
+          <Link href="https://www.facebook.com/anwaaralharmain" className="text-white" target="_blank">
             <FaFacebook />
-          </a>
-          <a href="https://www.instagram.com/anwaaralharmaintravelandtours/" className="text-white">
+          </Link>
+          <Link href="https://www.instagram.com/anwaaralharmaintravelandtours/" className="text-white" target="_blank">
             <FaInstagram />
-          </a>
+          </Link>
+          <Link href={'https://www.linkedin.com/company/anwaar-al-harmain-travel-and-tours/'} className="text-white" target="_blank">
+          <FaLinkedin/>
+          </Link>
           
         </div>
       </div>

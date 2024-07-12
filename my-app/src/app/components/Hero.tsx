@@ -8,10 +8,12 @@ export default function Home() {
           Plan Your Umrah Journey With Us!
         </h1>
         <div className="flex items-center justify-center gap-4 mt-4">
-          <button className="bg-transparent text-sm font-bold text-white uppercase tracking-[0.5rem] transition duration-[0.25s] mx-4 my-0 px-8 py-6  border-2 border-white hover:bg-white hover:text-black hover:cursor-pointer text-shadow-xsm shadow-black opacity-90">
+          <button className="bg-white opacity-60 text-sm font-bold text-black uppercase tracking-[0.5rem] transition duration-[0.25s] mx-4 my-0 px-8 py-6  border-2 border-white hover:bg-white hover:opacity-90">
             View Details
           </button>
-          <button className="bg-transparent text-sm font-bold text-white uppercase tracking-[0.5rem] transition duration-[0.25s] mx-4 my-0 px-8 py-6  border-2 border-white hover:bg-white hover:text-black hover:cursor-pointer text-shadow-xsm shadow-black opacity-90">
+          <button className="bg-white opacity-60 text-sm font-bold text-black uppercase tracking-[0.5rem] transition duration-[0.25s] mx-4 my-0 px-8 py-6  border-2 border-white hover:bg-white hover:opacity-90">
+            {/* bg-white opacity-70 text-sm font-bold text-black uppercase tracking-[0.5rem] transition duration-[0.25s] mx-4 my-0 px-8 py-6  border-2 border-black hover:bg-white hover:text-black */}
+            {/* bg-transparent text-sm font-bold text-white uppercase tracking-[0.5rem] transition duration-[0.25s] mx-4 my-0 px-8 py-6  border-2 border-white hover:bg-white hover:text-black hover:cursor-pointer text-shadow-xsm shadow-black opacity-90 */}
             Contact Us
           </button>
         </div>
@@ -21,7 +23,7 @@ export default function Home() {
         autoPlay
         muted
         loop
-        className="absolute z-[-1] h-full w-full object-cover"
+        className="absolute z-[-1] h-full w-full object-cover justify-center"
       />
     </main>
   );
